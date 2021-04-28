@@ -1,5 +1,7 @@
 package sample.model;
 
+/** Classes */
+
 public class Endereco {
     private String rua;
     private int numero;

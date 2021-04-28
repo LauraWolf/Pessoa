@@ -2,12 +2,15 @@ package sample;
 
 import sample.model.Endereco;
 import sample.model.Pessoa;
+import sample.model.PessoaFisica;
+
+/** Class Main */
 
 public class Main{
 
     public static void main(String[] args){
-        Pessoa pessoa =
-                new Pessoa("Marcia");
+        PessoaFisica pessoa =
+                new PessoaFisica("Marcia");
         pessoa.setEndereco("Rua dos ricos",
                 12,
                 "Jurerê Internaciona",

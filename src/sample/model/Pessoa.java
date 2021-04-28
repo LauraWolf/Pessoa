@@ -1,5 +1,7 @@
 package sample.model;
 
+/** Classes */
+
 public abstract class Pessoa {
     private String nome;
     private Endereco endereco;
